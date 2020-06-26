@@ -11,4 +11,4 @@ repository: https://github.com/Microsoft/vscode-java-pack
 category: Editor
 spec: 
   extensions: 
-    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-vjava-pack/0.9.1/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-pack/0.9.1/vspackage
