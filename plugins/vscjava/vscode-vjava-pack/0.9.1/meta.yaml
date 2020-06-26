@@ -11,4 +11,9 @@ repository: https://github.com/Microsoft/vscode-java-pack
 category: Editor
 spec: 
   extensions: 
-    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-pack/0.9.1/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/java/0.63.0/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-debug/0.26.0/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-test/0.23.0/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-maven/0.22.0/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-dependency/0.10.2/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/VisualStudioExptTeam/vsextensions/vscodeintellicode/1.2.8/vspackage
