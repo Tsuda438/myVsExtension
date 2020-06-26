@@ -1,0 +1,18 @@
+apiVersion: v2
+publisher: shengchen
+name: vscode-checkstyle
+version: 1.3.3
+type: VS Code extension
+diplayName: Checkstyle for Java
+title: Checkstyle for Java
+description: Provide real-time feedback about Checkstyle violations and quick fix actions
+icon: 
+repository: https://github.com/jdneo/vscode-checkstyle
+category: Linter
+spec: 
+  containers:
+    - image: "quay.io/eclipse/che-sidecar-java:11-f76ca45"
+      name: checkstyle
+      memoryLimit: "1500Mi"
+  extensions: 
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/shengchen/vsextensions/vscode-checkstyle/1.3.3/vspackage
