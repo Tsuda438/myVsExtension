@@ -1,0 +1,14 @@
+apiVersion: v2
+publisher: vscjava
+name: vscode-vjava-pack
+version: 0.9.1
+type: VS Code extension
+diplayName: Java Extension Pack
+title: Java Extension Pack
+description: Popular extensions for Java development and more.
+icon: 
+repository: https://github.com/Microsoft/vscode-java-pack
+category: Editor
+spec: 
+  extensions: 
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-vjava-pack/0.9.1/vspackage
