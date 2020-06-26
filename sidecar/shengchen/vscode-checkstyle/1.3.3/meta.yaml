@@ -11,7 +11,7 @@ repository: https://github.com/jdneo/vscode-checkstyle
 category: Linter
 spec: 
   containers:
-    - image: "quay.io/eclipse/che-sidecar-java:11-f76ca45"
+    - image: "eclipse/che-theia-endpoint-runtime:next"
       name: checkstyle
       memoryLimit: "1500Mi"
   extensions: 
