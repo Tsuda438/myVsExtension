@@ -1,0 +1,14 @@
+apiVersion: v3
+publisher: auchenberg
+name: vscode-browser-preview
+version: 0.6.7
+type: VS Code extension
+diplayName: Browser Preview
+title: Browser Preview
+description: A real browser preview inside your editor that you can debug.
+icon: 
+repository: https://github.com/auchenberg/vscode-browser-preview
+category: Other
+spec: 
+  extensions: 
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/auchenberg/vsextensions/vscode-browser-preview/0.6.7/vspackage
