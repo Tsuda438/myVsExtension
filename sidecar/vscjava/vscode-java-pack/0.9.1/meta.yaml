@@ -1,6 +1,6 @@
 apiVersion: v2
 publisher: vscjava
-name: vscode-vjava-pack
+name: vscode-java-pack
 version: 0.9.1
 type: VS Code extension
 diplayName: Java Extension Pack
@@ -17,5 +17,7 @@ spec:
   extensions: 
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/java/0.63.0/vspackage
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/VisualStudioExptTeam/vsextensions/vscodeintellicode/1.2.8/vspackage
-    - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-java-debug/vscode-java-debug-0.26.0.vsix
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-debug/0.26.0/vspackage
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-test/0.23.0/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-dependency/0.10.2/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-maven/0.22.0/vspackage
