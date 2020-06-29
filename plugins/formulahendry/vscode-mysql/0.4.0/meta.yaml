@@ -1,0 +1,14 @@
+apiVersion: v2
+publisher: formulahendry
+name: vscode-mysql
+version: 0.4.0
+type: VS Code extension
+diplayName: MySQL
+title: MySQL
+description: MySQL management tool
+icon: 
+repository: https://github.com/formulahendry/vscode-mysql
+category: Language
+spec: 
+  extensions: 
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/formulahendry/vsextensions/vscode-mysql/0.4.0/vspackage
