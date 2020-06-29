@@ -1,0 +1,32 @@
+apiVersion: v2
+publisher: formulahendry
+name: vscode-mysql
+version: 0.4.0
+type: VS Code extension
+diplayName: MySQL
+title: MySQL
+description: MySQL management tool
+icon: 
+repository: https://github.com/formulahendry/vscode-mysql
+category: Language
+spec: 
+  endpoints:
+    - name: db
+      port: 3306
+      attributes:
+        public: 'true'
+        protocol: http
+        discoverable: 'true'
+  containers:
+    - image: centos/mysql-57-centos7
+      name: mysql
+      memoryLimit: 300Mi
+      env:
+        - value: mysql
+          name: MYSQL_USER
+        - value: password
+          name: MYSQL_PASSWORD
+        - value: petclinic
+          name: MYSQL_DATABASE
+  extensions: 
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/formulahendry/vsextensions/vscode-mysql/0.4.0/vspackage
