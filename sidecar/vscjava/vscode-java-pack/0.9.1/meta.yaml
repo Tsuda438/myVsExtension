@@ -18,5 +18,5 @@ spec:
       - mountPath: "/home/theia/.m2"
         name: m2
   extensions:
-    - https://download.jboss.org/jbosstools/static/jdt.ls/stable/java-0.63.0-2222.vsix
-    - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-java-debug/vscode-java-debug-0.26.0.vsix
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/java/0.57.0/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-debug/0.24.0/vspackage
