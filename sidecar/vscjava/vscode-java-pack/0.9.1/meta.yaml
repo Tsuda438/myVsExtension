@@ -15,5 +15,5 @@ spec:
       name: vscode-java
       memoryLimit: "2000Mi"
   extensions: 
-    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/java/0.63.0/vspackage
+    - https://download.jboss.org/jbosstools/static/jdt.ls/stable/java-0.63.0-2222.vsix
     - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-java-debug/vscode-java-debug-0.26.0.vsix
