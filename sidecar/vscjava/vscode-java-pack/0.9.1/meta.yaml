@@ -9,11 +9,14 @@ description: Popular extensions for Java development and more.
 icon: 
 repository: https://github.com/Microsoft/vscode-java-pack
 category: Editor
-spec: 
+spec:
   containers:
-    - image: "eclipse/che-remote-plugin-runner-java11"
+    - image: "quay.io/eclipse/che-sidecar-java:11-f76ca45"
       name: vscode-java
-      memoryLimit: "2000Mi"
-  extensions: 
+      memoryLimit: "1500Mi"
+      volumes:
+      - mountPath: "/home/theia/.m2"
+        name: m2
+  extensions:
     - https://download.jboss.org/jbosstools/static/jdt.ls/stable/java-0.63.0-2222.vsix
     - https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-java-debug/vscode-java-debug-0.26.0.vsix
