@@ -24,3 +24,4 @@ spec:
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-maven/0.21.2/vspackage
     - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/VisualStudioExptTeam/vsextensions/vscodeintellicode/1.2.8/vspackage
     - https://github.com/microsoft/vscode-java-dependency/releases/download/0.10.0/vscjava.vscode-java-dependency-0.10.0.vsix
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/shengchen/vsextensions/vscode-checkstyle/1.3.2/vspackage
