@@ -1,0 +1,21 @@
+apiVersion: v2
+publisher: vscjava
+name: vscode-java-pack
+version: 0.9.0
+type: VS Code extension
+diplayName: Java Extension Pack
+title: Java Extension Pack
+description: Popular extensions for Java development and more.
+icon: 
+repository: https://github.com/Microsoft/vscode-java-pack
+category: Editor
+spec:
+  containers:
+    - image: "eclipse/che-remote-plugin-runner-java11:7.3.3"
+      name: vscode-java
+      memoryLimit: "1500Mi"
+      volumes:
+      - mountPath: "/home/theia/.m2"
+        name: m2
+  extensions:
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/vscjava/vsextensions/vscode-java-pack/0.9.0/vspackage
