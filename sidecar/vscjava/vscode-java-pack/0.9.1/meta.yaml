@@ -20,3 +20,4 @@ spec:
   extensions:
     - https://github.com/redhat-developer/vscode-java/releases/download/v0.57.0/redhat.java-0.57.0.vsix
     - https://github.com/microsoft/vscode-java-debug/releases/download/0.24.0/vscjava.vscode-java-debug-0.24.0.vsix
+    - https://github.com/microsoft/vscode-java-test/releases/download/0.22.3/vscjava.vscode-java-test-0.22.3.vsix
