@@ -1,7 +1,7 @@
 apiVersion: v2
 publisher: shengchen
 name: vscode-checkstyle
-version: 1.3.3
+version: 1.3.2
 type: VS Code extension
 diplayName: Checkstyle for Java
 title: Checkstyle for Java
@@ -11,8 +11,9 @@ repository: https://github.com/jdneo/vscode-checkstyle
 category: Linter
 spec: 
   containers:
-    - image: "eclipse/che-remote-plugin-runner-java11:next"
+    - image: "eclipse/che-remote-plugin-runner-java11:7.3.3"
       name: checkstyle
       memoryLimit: "1500Mi"
   extensions: 
-    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/shengchen/vsextensions/vscode-checkstyle/1.3.3/vspackage
+    - https://github.com/redhat-developer/vscode-java/releases/download/v0.57.0/redhat.java-0.57.0.vsix
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/shengchen/vsextensions/vscode-checkstyle/1.3.2/vspackage
