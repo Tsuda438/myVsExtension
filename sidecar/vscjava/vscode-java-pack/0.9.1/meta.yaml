@@ -11,7 +11,7 @@ repository: https://github.com/Microsoft/vscode-java-pack
 category: Editor
 spec:
   containers:
-    - image: "quay.io/eclipse/che-sidecar-java:11-f76ca45"
+    - image: "eclipse/che-remote-plugin-runner-java11:7.3.3"
       name: vscode-java
       memoryLimit: "1500Mi"
       volumes:
