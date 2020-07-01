@@ -11,4 +11,4 @@ repository: https://github.com/formulahendry/vscode-mysql
 category: Language
 spec: 
   extensions: 
-    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/formulahendry/vsextensions/vscode-mysql/0.4.0/vspackage
+    - https://github.com/formulahendry/vscode-mysql/releases/download/0.4.0/vscode-mysql-0.4.0.vsix
