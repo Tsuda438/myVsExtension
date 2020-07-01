@@ -12,7 +12,7 @@ category: Editor
 spec:
   containers:
     - image: "eclipse/che-remote-plugin-runner-java11:7.3.3"
-      name: vscode-java-
+      name: vscode-java
       memoryLimit: "1500Mi"
       volumes:
       - mountPath: "/home/theia/.m2"
