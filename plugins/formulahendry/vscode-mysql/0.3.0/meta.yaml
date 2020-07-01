@@ -1,0 +1,14 @@
+apiVersion: v2
+publisher: formulahendry
+name: vscode-mysql
+version: 0.3.0
+type: VS Code extension
+diplayName: MySQL
+title: MySQL
+description: MySQL management tool
+icon: 
+repository: https://github.com/formulahendry/vscode-mysql
+category: Language
+spec: 
+  extensions: 
+    - https://github.com/formulahendry/vscode-mysql/releases/download/0.3.0/vscode-mysql-0.3.0.vsix
