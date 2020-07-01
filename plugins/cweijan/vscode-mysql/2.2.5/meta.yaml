@@ -1,0 +1,14 @@
+apiVersion: v2
+publisher: cweijan
+name: vscode-mysql
+version: 2.2.5
+type: VS Code extension
+diplayName: MySQL
+title: MySQL
+description: MySQL Client for vscode
+icon: 
+repository: https://github.com/cweijan/vscode-mysql
+category: Language
+spec: 
+  extensions: 
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/cweijan/vsextensions/vscode-mysql/2.2.5/vspackage
